@@ -1,3 +1,5 @@
+# 灵感来自
+  https://github.com/Binaryify/NeteaseCloudMusicApi
 # 效果截图
 首页：
 ![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/index.png)
