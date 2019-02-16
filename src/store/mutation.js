@@ -9,6 +9,9 @@ const mutations = {
   },
   [types.RECEIVE_REC_ID] (state, playId) {
     state.playId = playId
+  },
+  [types.RECEIVE_REC_PLAY_SONG] (state, playsong) {
+    state.playsong = playsong
   }
 }
 

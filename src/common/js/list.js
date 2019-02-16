@@ -13,7 +13,8 @@ export function songsList (list, rankcolor) {
       album: item.al.name,
       alias: item.alia[0],
       rank: index + 1,
-      artists: finName
+      artists: finName,
+      picUrl: item.al.picUrl
     }
     if (rankcolor) {
       if (index < 3) {

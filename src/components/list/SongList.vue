@@ -25,20 +25,24 @@
 </template>
 
 <script>
-import { reqSongplay } from '@/api'
+import { reqSongplay, reqSongDetail } from '@/api'
 import { mapMutations } from 'vuex'
+import { songsList } from '@/common/js/list'
 export default {
   props: {
     songsList: Array
   },
   methods: {
     ...mapMutations({
-      setURL: 'RECEIVE_REC_ID'
+      setURL: 'RECEIVE_REC_ID',
+      setPLA: 'RECEIVE_REC_PLAY_SONG'
     }),
     async playSong (id) {
       const result = await reqSongplay(id)
-      if (result.code === 200) {
+      const result2 = await reqSongDetail(id)
+      if (result.code === 200 && result2.code === 200) {
         this.setURL(result.data[0].url)
+        this.setPLA(songsList(result2.songs))
       }
     }
   }

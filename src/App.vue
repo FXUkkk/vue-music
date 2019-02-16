@@ -1,6 +1,8 @@
 <template>
   <div>
-    <router-view></router-view>
+    <keep-alive>
+      <router-view v-if="!playId"></router-view>
+    </keep-alive>
     <play v-if="playId" class="player"></play>
   </div>
 </template>
