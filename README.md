@@ -1,3 +1,6 @@
+api来源：https://github.com/Binaryify/NeteaseCloudMusicApi 
+
+
 # vue-music
 
 > A Vue.js project
