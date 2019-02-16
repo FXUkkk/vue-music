@@ -1,3 +1,16 @@
+# 效果截图
+首页：
+![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/index.png)
+歌单：
+![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/rec.png) <br><br><br><br>
+搜索：
+![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/serach.png)
+![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/serached.png) <br><br><br><br>
+热歌：
+![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/hotsong.png)
+播放：
+![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/play.png)
+
 # vue-music
 
 > A Vue.js project
