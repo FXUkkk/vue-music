@@ -4,8 +4,8 @@
 歌单：
 ![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/rec.png) <br><br><br><br>
 搜索：
-![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/serach.png)
-![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/serached.png) <br><br><br><br>
+![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/search.png)
+![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/searched.png) <br><br><br><br>
 热歌：
 ![](https://github.com/FXUkkk/vue-music/blob/master/screenshot/hotsong.png)
 播放：
